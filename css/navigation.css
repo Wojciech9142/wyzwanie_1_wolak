@@ -1,0 +1,28 @@
+.head__top{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    justify-content: space-between;
+    width:70vw;
+}
+
+.head__top__navigation__main{
+    display: flex;
+    flex-direction: row;
+}
+
+.head__top__navigation__main--item{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.head__top__navigation__main--item-a{
+    color: white;
+    text-decoration: none;
+}
+
+.head__top__navigation__main--item:first-child{
+    border-bottom: 2px solid white;
+}
