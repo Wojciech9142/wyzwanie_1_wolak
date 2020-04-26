@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wolak Wojciech Wyzwanie #1</title>
+    <meta name="description" content="Wyzwanie zrobione przez Wojciech Wolak na podstawie szablonu kallyas">
+    <meta name="keywords" content="wolak, wojciech, kallyas, wyzwanie, jeden">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/head.css">
     <link rel="stylesheet" href="/css/navigation.css">
     <link rel="stylesheet" href="/css/tiles.css">
     <link rel="stylesheet" href="/css/services.css">
     <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/form.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet"> 
 </head>
@@ -165,6 +168,65 @@
         <div class="gallery__element">
             
         </div>
+    </section>
+
+    <section class="contact">
+        <article class="contact__text">
+            <h2 class="contact__text--header">Want to have a professional project? <br> Let's talk about it. </h2>
+            <p class="contact__text--description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae possimus maiores qui cupiditate, corporis harum accusamus, ipsum porro alias amet molestiae quo natus aliquid? Maiores, molestiae. Totam temporibus commodi expedita?
+            </p>
+            <p class="contact__text--description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et iusto, ad fugiat illo consequatur veritatis recusandae minus architecto reprehenderit dolore dicta laudantium labore fuga harum pariatur, eius, molestias unde aut!
+            </p>
+        </article>
+
+        <article class="contact__form">
+            <form class="contact__form_form" action="#" method="post">
+                
+                <div class="contact__form_form__item">
+                    <input class="contact__form_form--input input_element" type="text" name="name" id="input__name" required>
+                    <label for="input__name" class="contact__form_form__item--label">
+                        Your name
+                    </label>
+                </div>
+                
+                <div class="contact__form_form__item">
+                    <input class="contact__form_form--input input_element" type="text" name="company_name" id="input__company" required>
+                    <label for="input__company" class="contact__form_form__item--label">
+                        Company name
+                    </label>
+                </div>
+                
+                <div class="contact__form_form__item">
+                    <input class="contact__form_form--input input_element" type="email" name="email" id="input__email" required>
+                    <label for="email" class="contact__form_form__item--label">
+                        Email Address
+                    </label>
+                </div>
+                
+                <div class="contact__form_form__item">
+                    <select class="contact__form_form--input input_element" name="service" id="service__name" required>
+                        <option value="web_design">Web Design</option>
+                        <option value="Branding">Branding</option>
+                        <option value="SEO">SEO</option>
+                        <option value="Development">Development</option>
+                    </select>
+                    <label for="service__name" class="contact__form_form__item--label">
+                        Select Service
+                    </label>
+                </div>
+                
+                <div class="contact__form_form__item">
+                    <textarea class="contact__form_form--input input_element" name="describe_project" id="describe" cols="30" rows="10" required></textarea>
+                    <label for="describe" class="contact__form_form__item--label">
+                        Describe your project
+                    </label>
+                </div>
+
+                <button class="contact__form_form--input button_element" type="submit">Submit</button>
+            </form>
+        </article>
     </section>
 </body>
 </html>
