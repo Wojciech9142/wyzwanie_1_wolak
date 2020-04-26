@@ -1,0 +1,37 @@
+.tiles{
+    width: 65vw;
+    position: relative;
+    top: -70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tiles__file{
+    background: #202b30;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 60px ;
+    color: white;
+    transition: background-color .4s;
+}
+
+.tiles__file:hover{
+    background-color: #fb414e;
+}
+
+.tiles__file__image{
+    width: 60px;
+    margin: 20px 0;
+}
+
+.tiles__file--header{
+    text-transform: capitalize;
+}
+
+.tiles__file--line{
+    width: 50px;
+    margin: 0;
+    border: 1px solid white;
+}
