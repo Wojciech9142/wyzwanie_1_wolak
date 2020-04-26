@@ -1,0 +1,66 @@
+.services{
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.services__head--pre{
+    text-transform: uppercase;
+    color: #fb424f;
+}
+
+.services__head--header{
+    font-size: 3.3em;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:5px 0 15px 0;
+}
+
+.services__head--header::after{
+    content: " Visual Perfection";
+    color: #fb424f;
+}
+
+.services__head--description{
+    width:60%;
+    text-align: center;
+    font-size: .9em;
+    color: #a7a7a7;
+}
+
+.services__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 90px;
+    margin-top: 100px;
+}
+
+.services__list__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__list__item--header{
+    font-size: 1.7em;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 28px 0;
+    color: #010101;
+}
+
+.services__list__item--description{
+    text-align: center;
+    font-size: .9em;
+    padding:0 15%;
+}
