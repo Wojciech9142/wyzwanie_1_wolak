@@ -22,10 +22,22 @@
     text-transform: capitalize;
 }
 
+@media (max-width:1024px){
+    .head__header{
+        font-size: 35px;
+    }
+}
+
 .head__description{
     font-size: 20px;
     line-height: 35px;
     width: 40%;
+}
+
+@media (max-width:1024px){
+    .head__description{
+        font-size: 17px;
+    }
 }
 
 
@@ -39,6 +51,12 @@
     font-size: 1.1em;
     margin: 0 10px;
     cursor: pointer;
+}
+
+@media (max-width:1024px){
+    .head__buttons--button{
+        font-size: 1em;
+    }
 }
 
 .head__buttons--button:first-child{

@@ -1,5 +1,5 @@
 .tiles{
-    width: 65vw;
+    width: 70vw;
     position: relative;
     top: -70px;
     margin: 0 auto;
@@ -7,14 +7,27 @@
     justify-content: space-around;
 }
 
+@media (max-width:1024px){
+    .tiles{
+        width: 90vw;
+        top: -40px;
+    }
+}
+
 .tiles__file{
     background: #202b30;
-    width: 400px;
+    width: 30%;
     display: flex;
     flex-direction: column;
     padding: 50px 60px ;
     color: white;
     transition: background-color .4s;
+}
+
+@media (max-width:1024px){
+    .tiles__file{
+        padding: 35px 45px;
+    }
 }
 
 .tiles__file:hover{

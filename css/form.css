@@ -6,6 +6,12 @@
     display: flex;
 }
 
+@media (max-width: 1024px){
+    .contact{
+        width:80vw;
+    }
+}
+
 .contact__text{
     flex:1;
     display: flex;
@@ -21,11 +27,24 @@
     font-family: 'Source Sans Pro ', sans-serif;
 }
 
+@media (max-width: 1024px){
+    .contact__text--header{
+        font-size: 2.2em;
+    }
+}
+
 .contact__text--description{
     font-size: .9em;
     color: #a7a7a7;
     padding-left: 30%;
     line-height: 2em;
+}
+
+@media (max-width: 1024px){
+    .contact__text--description{
+        font-size: .8em;
+        padding-left: 20%;
+    }
 }
 
 .contact__form{

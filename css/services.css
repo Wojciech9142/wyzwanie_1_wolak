@@ -7,7 +7,14 @@
     justify-content: center;
 }
 
+@media (max-width:1024px){
+    .services{
+        width:80vw;
+    }
+}
+
 .services__head{
+    text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -17,6 +24,12 @@
 .services__head--pre{
     text-transform: uppercase;
     color: #fb424f;
+}
+
+@media (max-width:1024px){
+    .services__head--pre{
+        font-size: .9em;
+    }
 }
 
 .services__head--header{

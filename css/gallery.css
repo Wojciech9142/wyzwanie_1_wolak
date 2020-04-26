@@ -9,10 +9,23 @@
     margin-bottom:50px;
 }
 
+@media (max-width:1024px){
+    .gallery{
+        grid-template-columns: repeat(3, minmax(280px, 1fr));
+    }
+}
+
 .gallery__element{
     background-color: aquamarine;
     width: 435px;
     height: 435px;
+}
+
+@media (max-width:1024px){
+    .gallery__element{
+       width: 280px;
+       height: 280px;
+    }
 }
 
 .gallery__element:nth-child(1){
