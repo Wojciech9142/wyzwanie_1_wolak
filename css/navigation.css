@@ -8,9 +8,26 @@
     width:70vw;
 }
 
+@media (max-width: 415px){
+    .head__top{
+        flex-direction: column;
+        background: #333333;
+        margin: 0;
+        width:100vw;
+        padding: 20px 0;
+        height: 20vh;
+    }
+}
+
 .head__top__navigation__main{
     display: flex;
     flex-direction: row;
+}
+
+@media (max-width: 415px){
+    .head__top__navigation__main{
+        display: none;
+    }
 }
 
 .head__top__navigation__main--item{

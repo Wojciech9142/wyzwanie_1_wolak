@@ -13,6 +13,12 @@
     }
 }
 
+@media (max-width:415px){
+    .services{
+        width:90vw;
+    }
+}
+
 .services__head{
     text-align: center;
     display: flex;
@@ -39,6 +45,12 @@
     margin:5px 0 15px 0;
 }
 
+@media (max-width:415px){
+    .services__head--header{
+        font-size: 3em;
+    }
+}
+
 .services__head--header::after{
     content: " Visual Perfection";
     color: #fb424f;
@@ -49,6 +61,14 @@
     text-align: center;
     font-size: .9em;
     color: #a7a7a7;
+}
+
+@media (max-width:415px){
+    .services__head--description{
+        width: 80%;
+        font-size: 1.1em;
+        line-height: 1.6em;
+    }
 }
 
 .services__list{
@@ -62,6 +82,12 @@
 @media (max-width: 720px){
     .services__list{
         grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 415px){
+    .services__list{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 

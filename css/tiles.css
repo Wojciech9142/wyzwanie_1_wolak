@@ -20,6 +20,12 @@
     }
 }
 
+@media (max-width:720px){
+    .tiles{
+        width: 95vw;
+    }
+}
+
 .tiles__file{
     background: #202b30;
     width: 30%;
@@ -39,6 +45,13 @@
 @media (max-width:720px){
     .tiles__file{
         width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width:415px){
+    .tiles__file{
+        width: 95%;
         margin: 10px auto;
     }
 }
