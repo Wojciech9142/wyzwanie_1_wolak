@@ -59,6 +59,12 @@
     margin-top: 100px;
 }
 
+@media (max-width: 720px){
+    .services__list{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
 .services__list__item{
     display: flex;
     flex-direction: column;

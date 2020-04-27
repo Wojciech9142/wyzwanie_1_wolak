@@ -14,6 +14,12 @@
     }
 }
 
+@media (max-width:720px){
+    .tiles{
+        flex-direction: column;
+    }
+}
+
 .tiles__file{
     background: #202b30;
     width: 30%;
@@ -27,6 +33,13 @@
 @media (max-width:1024px){
     .tiles__file{
         padding: 35px 45px;
+    }
+}
+
+@media (max-width:720px){
+    .tiles__file{
+        width: 90%;
+        margin: 10px auto;
     }
 }
 

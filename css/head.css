@@ -28,6 +28,12 @@
     }
 }
 
+@media (max-width:720px){
+    .head__header{
+        width:90%;
+    }
+}
+
 .head__description{
     font-size: 20px;
     line-height: 35px;
@@ -37,6 +43,13 @@
 @media (max-width:1024px){
     .head__description{
         font-size: 17px;
+    }
+}
+
+@media (max-width:720px){
+    .head__description{
+        font-size: 15px;
+        width: 70%;
     }
 }
 

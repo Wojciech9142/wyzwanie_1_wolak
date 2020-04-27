@@ -15,6 +15,12 @@
     }
 }
 
+@media (max-width:720px){
+    .gallery{
+        grid-template-columns: repeat(2, minmax(45vw, 1fr));
+    }
+}
+
 .gallery__element{
     background-color: aquamarine;
     width: 22.5vw;
@@ -26,6 +32,13 @@
     .gallery__element{
        width: 30vw;
        height: 30vw;
+    }
+}
+
+@media (max-width:720px){
+    .gallery__element{
+       width: 45vw;
+       height: 45vw;
     }
 }
 
