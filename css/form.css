@@ -12,6 +12,12 @@
     }
 }
 
+@media (max-width: 768px){
+    .contact{
+        width:95vw;
+    }
+}
+
 .contact__text{
     flex:1;
     display: flex;
@@ -23,13 +29,19 @@
 
 .contact__text--header{
     margin: 0;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Source Sans Pro ', sans-serif;
 }
 
 @media (max-width: 1024px){
     .contact__text--header{
         font-size: 2.2em;
+    }
+}
+
+@media (max-width: 768px){
+    .contact__text--header{
+        font-size: 2em;
     }
 }
 

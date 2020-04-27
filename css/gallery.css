@@ -24,8 +24,8 @@
 
 @media (max-width:1024px){
     .gallery__element{
-       width: 280px;
-       height: 280px;
+       width: 30vw;
+       height: 30vw;
     }
 }
 
