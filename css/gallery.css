@@ -2,7 +2,7 @@
     width: 90vw;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, minmax(435px, 1fr));
+    grid-template-columns: repeat(4, minmax(22.5vw, 1fr));
     column-gap: 10px;
     row-gap: 10px;
     margin-top:200px;
@@ -11,14 +11,15 @@
 
 @media (max-width:1024px){
     .gallery{
-        grid-template-columns: repeat(3, minmax(280px, 1fr));
+        grid-template-columns: repeat(3, minmax(30vw, 1fr));
     }
 }
 
 .gallery__element{
     background-color: aquamarine;
-    width: 435px;
-    height: 435px;
+    width: 22.5vw;
+    height: 22.5vw;
+    transition: transform .2s;
 }
 
 @media (max-width:1024px){
@@ -76,3 +77,6 @@
     background-position: center center;
 }
 
+.gallery__element:hover{
+    transform: scale(1.1);
+}
