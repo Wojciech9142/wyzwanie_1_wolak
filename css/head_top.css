@@ -26,6 +26,8 @@
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    align-self: flex-end;
+    margin: 5vw;
 }
 
 .head__top__mobile-item{
