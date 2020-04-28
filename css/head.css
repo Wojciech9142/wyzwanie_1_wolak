@@ -94,6 +94,15 @@
     }
 }
 
+@media (max-width:415px){
+    .head__buttons--button{
+        font-size: 1em;
+        width:30vw;
+        height: 12vw;
+        padding: 0;
+    }
+}
+
 .head__buttons--button:first-child{
     background: #fb414e;
 }
