@@ -39,8 +39,10 @@
                     </li>
                 </ul>
             </nav>
-            <div class="head__top__mobile">
-                
+            <div onclick="showmenu()" class="head__top__mobile">
+                <div class="head__top__mobile-item"></div>
+                <div class="head__top__mobile-item"></div>
+                <div class="head__top__mobile-item"></div>
             </div>
         </section>
         <h1 class="head__header">
@@ -55,9 +57,9 @@
         </div>
     </header>
 
-    <aside class="mobile_menu">
+    <aside id="mobile_menu" class="mobile_menu">
         <header class="mobile_menu__top">
-            <img src="/images/main/mobile-menu-back.png" alt="Powrót" class="mobile_menu__top-image">
+            <img src="/images/main/mobile-menu-back.png" onClick="hidemenu()" alt="Powrót" class="mobile_menu__top-image">
             <p class="mobile_menu__top-description">Back</p>
         </header>
         <ul class="mobile_menu__navigation">
@@ -253,5 +255,10 @@
             </form>
         </article>
     </section>
+
+    <script src="/javascript/mobile_menu.js">
+        
+    </script>
+
 </body>
 </html>
