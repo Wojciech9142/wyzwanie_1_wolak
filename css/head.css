@@ -22,7 +22,7 @@
 
 @media (max-width:720px){
     .head{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/main/background_mobile.png");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/main/background_mobile.jpg");
     }
 }
 
