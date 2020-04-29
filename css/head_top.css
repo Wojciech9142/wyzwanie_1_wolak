@@ -8,14 +8,14 @@
     width:70vw;
 }
 
-@media (max-width: 415px){
+@media (max-width: 700px){
     .head__top{
         flex-direction: column;
         background: #333333;
         margin: 0;
         width:100vw;
         padding: 20px 0;
-        height: 20vh;
+        max-height: 20vh;
     }
 }
 
@@ -28,6 +28,13 @@
     cursor: pointer;
     align-self: flex-end;
     margin: 5vw;
+    display: none;
+}
+
+@media (max-width: 700px){
+    .head__top__mobile{
+        display: inherit;
+    }
 }
 
 .head__top__mobile-item{
@@ -41,7 +48,7 @@
     flex-direction: row;
 }
 
-@media (max-width: 415px){
+@media (max-width: 700px){
     .head__top__navigation__main{
         display: none;
     }
