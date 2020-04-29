@@ -74,31 +74,31 @@
 }
 
 .gallery__element:nth-child(4){
-    background: url("images/gallery/4.jpg");
+    background: url("../images/gallery/4.jpg");
     background-size: cover;
     background-position: center center;
 }
 
 .gallery__element:nth-child(5){
-    background: url("images/gallery/5.jpg");
+    background: url("../images/gallery/5.jpg");
     background-size: cover;
     background-position: center center;
 }
 
 .gallery__element:nth-child(6){
-    background: url("images/gallery/6.jpg");
+    background: url("../images/gallery/6.jpg");
     background-size: cover;
     background-position: center center;
 }
 
 .gallery__element:nth-child(7){
-    background: url("images/gallery/7.jpg");
+    background: url("../images/gallery/7.jpg");
     background-size: cover;
     background-position: center center;
 }
 
 .gallery__element:nth-child(8){
-    background: url("images/gallery/8.jpg");
+    background: url("../images/gallery/8.jpg");
     background-size: cover;
     background-position: center center;
 }
