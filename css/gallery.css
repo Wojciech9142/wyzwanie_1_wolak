@@ -56,19 +56,19 @@
 }
 
 .gallery__element:nth-child(1){
-    background: url("images/gallery/1.jpg");
+    background: url("../images/gallery/1.jpg");
     background-size: cover;
     background-position: center center;
 }
 
 .gallery__element:nth-child(2){
-    background: url("images/gallery/2.jpg");
+    background: url("../images/gallery/2.jpg");
     background-size: cover;
     background-position: center center;
 }
 
 .gallery__element:nth-child(3){
-    background: url("images/gallery/3.jpg");
+    background: url("../images/gallery/3.jpg");
     background-size: cover;
     background-position: center center;
 }
